@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F9F9FB;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 44px 160px;
+    gap: 350px;
+}
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    gap: 33px;
+}
+
+nav a{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+
+    text-decoration: none;
+}
+
+.giovanna-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 60px;
+    gap: 53px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#imagem{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#ocupacao{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #94A3B8;
+}
+
+#nome-2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+#bio{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #94A3B8;
+    text-align: justify;
+    width: 600px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+.botao-download, .botao-contato, #maisSeguidores{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    width: 277px;
+    height: 67px;
+    border: 3px solid #A5B4FC;
+    border-radius: 50px;
+}
+
+.botao-download:hover, .botao-contato:hover, #maisSeguidores:hover{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F9F9FB;
+    width: 277px;
+    height: 67px;
+    background: #A5B4FC;
+    border-radius: 50px;
+}
+
+.botaoSeguidores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maisSeguidores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguidores{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px 160px;
+    width: 100%;
+}
+
+.line{
+    width: 64px;
+    height: 0px;
+    border: 8px solid #A5B4FC;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.seguidores h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+}
+
+.seguidores-name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#meus-seguidores{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+
+}
+
+.imagem-seguidor{
+    width: 266px;
+    height: 266px;
+}
+
+.nome-seguidor{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.cardsFollow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 85px 160px;
+}
+
+footer h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.redesSociais{
+    display: flex;
+    gap: 26px;
+}
+
+
